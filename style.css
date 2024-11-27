@@ -91,8 +91,9 @@ a.index {
     padding: 10px;
     text-decoration: none;
     display: block;
-    font-size: .85vw;
+    font-size: .9vw;
 }
+
 @media screen and (max-width: 800px) {
     .sidenav {
         display:none;
@@ -125,6 +126,11 @@ span.caption{
 
 .sidenav a.sub{
     padding-left:40px;
+}
+
+.sidenav a.tsub{
+    padding-left:40px;
+    font-size: .85vw;
 }
 
 table {
